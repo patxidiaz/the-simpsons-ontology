@@ -105,7 +105,6 @@
         <rdfs:domain rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Character"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Character"/>
         <rdfs:comment>A character has a brother if he/she has a sibling and the sibling is a male</rdfs:comment>
-        <rdfs:label>hasBrother</rdfs:label>
     </owl:ObjectProperty>
     
 
