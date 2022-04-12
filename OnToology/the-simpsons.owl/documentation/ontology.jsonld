@@ -1099,9 +1099,6 @@
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Character"
   } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "hasBrother"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Character"
   } ],
