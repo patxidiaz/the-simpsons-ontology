@@ -58,7 +58,6 @@
 <http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasBrother> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Character> .
 <http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasBrother> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Character> .
 <http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasBrother> <http://www.w3.org/2000/01/rdf-schema#comment> "A character has a brother if he/she has a sibling and the sibling is a male" .
-<http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasBrother> <http://www.w3.org/2000/01/rdf-schema#label> "hasBrother" .
 # 
 # http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasDirector
 <http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasDirector> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .

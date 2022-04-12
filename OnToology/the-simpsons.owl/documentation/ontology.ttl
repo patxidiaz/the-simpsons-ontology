@@ -59,8 +59,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
             owl:inverseOf :isBrother ;
             rdfs:domain :Character ;
             rdfs:range :Character ;
-            rdfs:comment "A character has a brother if he/she has a sibling and the sibling is a male" ;
-            rdfs:label "hasBrother" .
+            rdfs:comment "A character has a brother if he/she has a sibling and the sibling is a male" .
 
 
 ###  http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasDirector
