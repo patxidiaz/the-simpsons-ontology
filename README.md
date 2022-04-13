@@ -1,9 +1,11 @@
 # The Simpsons Ontology
 Ontology about The Simpsons cartoon series
 
-Name: the-simpsons-ontology
-Author: Patxi Díaz
-Version: 1.0
+| Data | Value | 
+| --- | --- | 
+| Ontology name | the-simpsons-ontology |
+| Author | Patxi Díaz | 
+| Version | 1.0 |
 
 ## Graph
 Graph structure of the ontology
