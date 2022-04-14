@@ -280,7 +280,7 @@ This section provides details for each class and property defined by [Ontology N
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Character</p>
       <div class="comment">
-         <span class="markdown">Series character</span>
+         <span class="markdown">Series character.</span>
       </div>
       <dl class="description">
          <dt>has sub-classes</dt>
@@ -295,11 +295,11 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>is in domain of</dt>
          <dd>
-            <a href="#hasBrother"
-               title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasBrother">has brother</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#hasAge"
+            <a href="#hasAge"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasAge">hasAge</a>
-            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasFirstAppearanceIn"
+            <sup class="type-dp" title="data property">dp</sup>, <a href="#hasBrother"
+               title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasBrother">hasBrother</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#hasFirstAppearanceIn"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasFirstAppearanceIn">hasFirstAppearanceIn</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#hasHeight"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasHeight">hasHeight</a>
@@ -328,7 +328,7 @@ This section provides details for each class and property defined by [Ontology N
          <dt>is in range of</dt>
          <dd>
             <a href="#hasBrother"
-               title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasBrother">has brother</a>
+               title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasBrother">hasBrother</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#hasMember"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasMember">hasMember</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#hasSibling"
@@ -423,11 +423,19 @@ This section provides details for each class and property defined by [Ontology N
          <dd>
             <a href="#hasFirstAppearanceIn"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasFirstAppearanceIn">hasFirstAppearanceIn</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isWriterOf"
+               title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#isWriterOf">is writer of</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#isDirectorOf"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#isDirectorOf">isDirectorOf</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#isWriterOf"
-               title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#isWriterOf">isWriter</a>
             <sup class="type-op" title="object property">op</sup>
+         </dd>
+         <dt>has members</dt>
+         <dd>
+            <a href="#EpisodeS1E1"
+               title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1">episode s1 e1</a>
+            <sup class="type-ni" title="named individual">ni</sup>, <a href="#EpisodeS1E2"
+               title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E2">episode s1 e2</a>
+            <sup class="type-ni" title="named individual">ni</sup>
          </dd>
       </dl>
    </div>
@@ -670,6 +678,9 @@ This section provides details for each class and property defined by [Ontology N
       </h3>
       <p>
          <strong>IRI:</strong> http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Person</p>
+      <div class="comment">
+         <span class="markdown">Person that participates in the series</span>
+      </div>
       <dl class="description">
          <dt>has sub-classes</dt>
          <dd>
@@ -683,12 +694,12 @@ This section provides details for each class and property defined by [Ontology N
          </dd>
          <dt>is in domain of</dt>
          <dd>
-            <a href="#isDirectorOf"
+            <a href="#isWriterOf"
+               title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#isWriterOf">is writer of</a>
+            <sup class="type-op" title="object property">op</sup>, <a href="#isDirectorOf"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#isDirectorOf">isDirectorOf</a>
             <sup class="type-op" title="object property">op</sup>, <a href="#isVoiceActorOf"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#isVoiceActorOf">isVoiceActorOf</a>
-            <sup class="type-op" title="object property">op</sup>, <a href="#isWriterOf"
-               title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#isWriterOf">isWriter</a>
             <sup class="type-op" title="object property">op</sup>
          </dd>
          <dt>is in range of</dt>
@@ -756,9 +767,7 @@ This section provides details for each class and property defined by [Ontology N
    <ul class="hlist">
       <li>
          <a href="#hasBrother"
-            title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasBrother">
-            <span>has brother</span>
-         </a>
+            title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasBrother">hasBrother</a>
       </li>
       <li>
          <a href="#hasDirector"
@@ -787,6 +796,12 @@ This section provides details for each class and property defined by [Ontology N
       <li>
          <a href="#hasWriter"
             title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasWriter">hasWriter</a>
+      </li>
+      <li>
+         <a href="#isWriterOf"
+            title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#isWriterOf">
+            <span>is writer of</span>
+         </a>
       </li>
       <li>
          <a href="#isBrother"
@@ -828,13 +843,9 @@ This section provides details for each class and property defined by [Ontology N
          <a href="#isVoiceActorOf"
             title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#isVoiceActorOf">isVoiceActorOf</a>
       </li>
-      <li>
-         <a href="#isWriterOf"
-            title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#isWriterOf">isWriter</a>
-      </li>
    </ul>
    <div class="entity" id="hasBrother">
-      <h3>has brother<sup class="type-op" title="object property">op</sup>
+      <h3>hasBrother<sup class="type-op" title="object property">op</sup>
          <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
          </span>
       </h3>
@@ -1106,7 +1117,43 @@ This section provides details for each class and property defined by [Ontology N
             <dt>is inverse of</dt>
             <dd>
                <a href="#isWriterOf"
-                  title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#isWriterOf">isWriter</a>
+                  title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#isWriterOf">is writer of</a>
+               <sup class="type-op" title="object property">op</sup>
+            </dd>
+         </dl>
+      </div>
+   </div>
+   <div class="entity" id="isWriterOf">
+      <h3>is writer of<sup class="type-op" title="object property">op</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#isWriterOf</p>
+      <div class="comment">
+         <span class="markdown">A person is the writer of an episode</span>
+      </div>
+      <div class="description">
+         <p>
+            <strong>has characteristics:
+                </strong> asymmetric</p>
+         <dl>
+            <dt>has domain</dt>
+            <dd>
+               <a href="#Person"
+                  title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Person">Person</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>has range</dt>
+            <dd>
+               <a href="#Episode"
+                  title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Episode">Episode</a>
+               <sup class="type-c" title="class">c</sup>
+            </dd>
+            <dt>is inverse of</dt>
+            <dd>
+               <a href="#hasWriter"
+                  title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasWriter">hasWriter</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
@@ -1139,7 +1186,7 @@ This section provides details for each class and property defined by [Ontology N
             <dt>is inverse of</dt>
             <dd>
                <a href="#hasBrother"
-                  title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasBrother">has brother</a>
+                  title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasBrother">hasBrother</a>
                <sup class="type-op" title="object property">op</sup>
             </dd>
          </dl>
@@ -1460,42 +1507,6 @@ This section provides details for each class and property defined by [Ontology N
          </dl>
       </div>
    </div>
-   <div class="entity" id="isWriterOf">
-      <h3>isWriter<sup class="type-op" title="object property">op</sup>
-         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#objectproperties">Object Property ToC</a>
-         </span>
-      </h3>
-      <p>
-         <strong>IRI:</strong> http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#isWriterOf</p>
-      <div class="comment">
-         <span class="markdown">A person is the writer of an episode</span>
-      </div>
-      <div class="description">
-         <p>
-            <strong>has characteristics:
-                </strong> asymmetric</p>
-         <dl>
-            <dt>has domain</dt>
-            <dd>
-               <a href="#Person"
-                  title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Person">Person</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>has range</dt>
-            <dd>
-               <a href="#Episode"
-                  title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Episode">Episode</a>
-               <sup class="type-c" title="class">c</sup>
-            </dd>
-            <dt>is inverse of</dt>
-            <dd>
-               <a href="#hasWriter"
-                  title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasWriter">hasWriter</a>
-               <sup class="type-op" title="object property">op</sup>
-            </dd>
-         </dl>
-      </div>
-   </div>
 </div><div xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="dataproperties">
    <h3 id="dataproperties-headline" class="list">Data Properties</h3>
    <ul class="hlist">
@@ -1603,6 +1614,18 @@ This section provides details for each class and property defined by [Ontology N
          <a href="#DavidSilverman"
             title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#DavidSilverman">
             <span>david silverman</span>
+         </a>
+      </li>
+      <li>
+         <a href="#EpisodeS1E1"
+            title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1">
+            <span>episode s1 e1</span>
+         </a>
+      </li>
+      <li>
+         <a href="#EpisodeS1E2"
+            title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E2">
+            <span>episode s1 e2</span>
          </a>
       </li>
       <li>
@@ -1808,8 +1831,7 @@ This section provides details for each class and property defined by [Ontology N
             <a href="#hasFirstAppearanceIn"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasFirstAppearanceIn">hasFirstAppearanceIn</a>
             <sup class="type-op" title="object property">op</sup> 
-            <a href="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1"
-               target="_blank"
+            <a href="#EpisodeS1E1"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1">episode s1 e1</a>
          </dd>
          <dd>
@@ -1956,17 +1978,47 @@ This section provides details for each class and property defined by [Ontology N
             <a href="#isDirectorOf"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#isDirectorOf">isDirectorOf</a>
             <sup class="type-op" title="object property">op</sup> 
-            <a href="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1"
-               target="_blank"
+            <a href="#EpisodeS1E1"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1">episode s1 e1</a>
          </dd>
          <dd>
             <a href="#isDirectorOf"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#isDirectorOf">isDirectorOf</a>
             <sup class="type-op" title="object property">op</sup> 
-            <a href="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E2"
-               target="_blank"
+            <a href="#EpisodeS1E2"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E2">episode s1 e2</a>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="EpisodeS1E1">
+      <h3>episode s1 e1<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#Episode"
+               title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Episode">Episode</a>
+            <sup class="type-c" title="class">c</sup>
+         </dd>
+      </dl>
+   </div>
+   <div class="entity" id="EpisodeS1E2">
+      <h3>episode s1 e2<sup class="type-ni" title="named individual">ni</sup>
+         <span class="backlink"> back to <a href="#toc">ToC</a> or <a href="#namedindividuals">Named Individual ToC</a>
+         </span>
+      </h3>
+      <p>
+         <strong>IRI:</strong> http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E2</p>
+      <dl class="description">
+         <dt>belongs to</dt>
+         <dd>
+            <a href="#Episode"
+               title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Episode">Episode</a>
+            <sup class="type-c" title="class">c</sup>
          </dd>
       </dl>
    </div>
@@ -2019,8 +2071,7 @@ This section provides details for each class and property defined by [Ontology N
             <a href="#hasFirstAppearanceIn"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasFirstAppearanceIn">hasFirstAppearanceIn</a>
             <sup class="type-op" title="object property">op</sup> 
-            <a href="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1"
-               target="_blank"
+            <a href="#EpisodeS1E1"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1">episode s1 e1</a>
          </dd>
          <dd>
@@ -2143,8 +2194,7 @@ This section provides details for each class and property defined by [Ontology N
             <a href="#hasFirstAppearanceIn"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasFirstAppearanceIn">hasFirstAppearanceIn</a>
             <sup class="type-op" title="object property">op</sup> 
-            <a href="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1"
-               target="_blank"
+            <a href="#EpisodeS1E1"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1">episode s1 e1</a>
          </dd>
          <dd>
@@ -2194,8 +2244,7 @@ This section provides details for each class and property defined by [Ontology N
             <a href="#hasFirstAppearanceIn"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasFirstAppearanceIn">hasFirstAppearanceIn</a>
             <sup class="type-op" title="object property">op</sup> 
-            <a href="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1"
-               target="_blank"
+            <a href="#EpisodeS1E1"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1">episode s1 e1</a>
          </dd>
          <dd>
@@ -2229,8 +2278,7 @@ This section provides details for each class and property defined by [Ontology N
             <a href="#hasFirstAppearanceIn"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasFirstAppearanceIn">hasFirstAppearanceIn</a>
             <sup class="type-op" title="object property">op</sup> 
-            <a href="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1"
-               target="_blank"
+            <a href="#EpisodeS1E1"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1">episode s1 e1</a>
          </dd>
          <dd>
@@ -2253,10 +2301,9 @@ This section provides details for each class and property defined by [Ontology N
          <dt>has facts</dt>
          <dd>
             <a href="#isWriterOf"
-               title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#isWriterOf">isWriter</a>
+               title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#isWriterOf">is writer of</a>
             <sup class="type-op" title="object property">op</sup> 
-            <a href="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1"
-               target="_blank"
+            <a href="#EpisodeS1E1"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1">episode s1 e1</a>
          </dd>
       </dl>
@@ -2317,8 +2364,7 @@ This section provides details for each class and property defined by [Ontology N
             <a href="#hasFirstAppearanceIn"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasFirstAppearanceIn">hasFirstAppearanceIn</a>
             <sup class="type-op" title="object property">op</sup> 
-            <a href="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1"
-               target="_blank"
+            <a href="#EpisodeS1E1"
                title="http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1">episode s1 e1</a>
          </dd>
       </dl>

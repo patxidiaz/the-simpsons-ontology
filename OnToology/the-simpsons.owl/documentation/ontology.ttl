@@ -8,7 +8,15 @@
 
 <http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons> rdf:type owl:Ontology ;
                                                                        <http://purl.org/dc/terms/license> "http://purl.org/NET/rdflicense/cc-by4.0" ;
-                                                                       rdfs:comment "The Simpsons ontology describes the characters their relationships in \"The Simpsons\" cartoon series. Created by Patxi Díaz." .
+                                                                       rdfs:comment """Name: 
+the-simpsons.owl
+
+Description: 
+The Simpsons ontology describes the characters their relationships in \"The 
+Simpsons\" cartoon series. 
+
+Author:
+Patxi Díaz.""" .
 
 #################################################################
 #    Annotation properties
@@ -59,7 +67,8 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
             owl:inverseOf :isBrother ;
             rdfs:domain :Character ;
             rdfs:range :Character ;
-            rdfs:comment "A character has a brother if he/she has a sibling and the sibling is a male" .
+            rdfs:comment "A character has a brother if he/she has a sibling and the sibling is a male" ;
+            rdfs:label "hasBrother" .
 
 
 ###  http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#hasDirector
@@ -224,8 +233,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
                      owl:AsymmetricProperty ;
             rdfs:domain :Person ;
             rdfs:range :Episode ;
-            rdfs:comment "A person is the writer of an episode" ;
-            rdfs:label "isWriter" .
+            rdfs:comment "A person is the writer of an episode" .
 
 
 #################################################################
@@ -299,7 +307,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 ###  http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Character
 :Character rdf:type owl:Class ;
-           rdfs:comment "Series character" ;
+           rdfs:comment "Series character." ;
            rdfs:label "Character" .
 
 
@@ -384,6 +392,7 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 ###  http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Person
 :Person rdf:type owl:Class ;
+        rdfs:comment "Person that participates in the series" ;
         rdfs:label "Person" .
 
 
@@ -468,11 +477,13 @@ rdfs:sameAs rdf:type owl:AnnotationProperty .
 
 
 ###  http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1
-:EpisodeS1E1 rdf:type owl:NamedIndividual .
+:EpisodeS1E1 rdf:type owl:NamedIndividual ,
+                      :Episode .
 
 
 ###  http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E2
-:EpisodeS1E2 rdf:type owl:NamedIndividual .
+:EpisodeS1E2 rdf:type owl:NamedIndividual ,
+                      :Episode .
 
 
 ###  http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#HankAzaria

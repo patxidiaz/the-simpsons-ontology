@@ -476,7 +476,7 @@
     "@value" : "http://purl.org/NET/rdflicense/cc-by4.0"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "The Simpsons ontology describes the characters their relationships in \"The Simpsons\" cartoon series. Created by Patxi Díaz."
+    "@value" : "Name: \nthe-simpsons.owl\n\nDescription: \nThe Simpsons ontology describes the characters their relationships in \"The \nSimpsons\" cartoon series. \n\nAuthor:\nPatxi Díaz."
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#AbrahamSimpson",
@@ -639,7 +639,7 @@
   "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Character",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@value" : "Series character"
+    "@value" : "Series character."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Character"
@@ -721,10 +721,16 @@
   } ]
 }, {
   "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E1",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Episode"
+  } ]
 }, {
   "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#EpisodeS1E2",
-  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/1999/02/22-rdf-syntax-ns#type" : [ {
+    "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Episode"
+  } ]
 }, {
   "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Family",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -979,6 +985,9 @@
 }, {
   "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Person",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@value" : "Person that participates in the series"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@value" : "Person"
   } ]
@@ -1098,6 +1107,9 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Character"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "hasBrother"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Character"
@@ -1410,9 +1422,6 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Person"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@value" : "isWriter"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.semanticweb.org/patxidiaz/ontologies/2022/2/the-simpsons#Episode"
